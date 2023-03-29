@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #1F2937;
+}
+
+nav{
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.content h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.content p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    height: 300px;
+}
+
+.content-left{
+    width: 30%;
+}
+
+.hero-img{
+    width: 400px;
+    height: 200px;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    color: #fff;
+    border:none;
+    border-radius:6px;
+    font-weight: 700;
+    padding: 5px 25px;
+}
+
+.img2, .img3, .img4,.img5{
+    width: 100px;
+    height: 100px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.random-info h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    padding: 20px;
+}
+
+.random-info{
+
+
+}
+
+.captions{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+}
+.captions ul{
+    width: 100px;
+    height: 100px;
+}
+
+
+.quote{
+    background-color: #E5E7EB;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.quote h1{
+    color: #1F2937;
+    font-size: 36px;
+    font-style:italic;
+    width: 50%;
+    font-weight: lighter;
+    
+}
+
+.quote p{
+    align-items: center;
+}
+
+.cta{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:300px;
+    
+}
+
+
+.cta-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#3882F6;
+    border-radius: 10px;
+    padding: 10 20px;
+    width:50%;
+    height: 150px;
+}
+
+.sign-up2{
+    border: 2px solid white;
+    background-color: #3882F6;
+    color:white;
+    padding: 30 50px;
+    border-radius: 5px;
+    width: 100px;
+  
+}
+.cta h3{
+    color:white;
+    font-weight:bolder;
+}
+.cta p{
+color:#E5E7EB;
+font-weight:lighter
+}
+
+.footer{
+    background-color:#1F2937;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    color:white;
+}
